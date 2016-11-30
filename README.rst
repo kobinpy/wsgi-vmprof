@@ -35,9 +35,10 @@ Basic Usage
        time.sleep(1)
        return "Hello world!!"
 
+   # Add wsgi-vmprof as a WSGI middleware!
+   app = VmprofMiddleware(app)
+
    if __name__ == "__main__":
-       # Add wsgi-vmprof as a WSGI middleware!
-       app = VmprofMiddleware(app)
        bottle.run(app=app)
 
 Requirements
