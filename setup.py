@@ -29,7 +29,7 @@ setup(
     author=__author__,
     author_email=__author_email__,
     url='https://github.com/c-bata/wsgi-vmprof',
-    description='',
+    description='WSGI Middleware for integrating vmprof',
     long_description=README,
     classifiers=__classifiers__,
     py_modules=['wsgi_vmprof'],
