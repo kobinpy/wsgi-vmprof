@@ -1,2 +1,5 @@
 bottle
+ipython
+twine
+wheel
 
